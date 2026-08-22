@@ -239,5 +239,16 @@
     "rating": 8,
     "type": "weekly",
     "postedAt": "2026-08-22T15:47:56.405Z"
+  },
+  {
+    "key": "classic::buck-tick|taboo",
+    "artist": "BUCK-TICK",
+    "title": "BUCK-TICK – Taboo (1988): Classic Album Review",
+    "album": "Taboo",
+    "year": 1988,
+    "url": "https://vkchronicle.com/2026/08/buck-tick-taboo-1988-classic-album-review/",
+    "rating": 9,
+    "type": "classic",
+    "postedAt": "2026-08-22T18:27:29.848Z"
   }
 ]
