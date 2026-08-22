@@ -1,0 +1,249 @@
+/*
+ * VKNews — Custom CSS overrides
+ * Paste into: Blogger admin → Theme → Customize → Advanced → Add CSS
+ *
+ * Works on top of the existing Contempo/Indie dark theme.
+ * Last updated: 2026-03
+ */
+
+/* ─── Google Fonts ─────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+
+/* ─── Base ──────────────────────────────────────────────────────────────────── */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0a0a0a !important;
+}
+
+/* ─── Header ────────────────────────────────────────────────────────────────── */
+.Header h1 {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 2.4rem !important;
+  letter-spacing: -0.5px;
+}
+.Header p {
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  opacity: 0.6 !important;
+  text-transform: uppercase;
+}
+
+/* ─── Navigation ────────────────────────────────────────────────────────────── */
+.blog-name .PageList {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  margin-top: 12px !important;
+  padding-top: 0 !important;
+}
+.tabs li a {
+  font-size: 0.72rem !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase !important;
+  padding: 14px 10px !important;
+  color: rgba(255,255,255,0.55) !important;
+  transition: color 0.2s;
+}
+.tabs li a:hover { color: #ecac0d !important; }
+.tabs .selected a { color: #ecac0d !important; }
+.tabs .selected { border-bottom: 2px solid #ecac0d !important; }
+
+/* ─── Post cards — HOMEPAGE ONLY ────────────────────────────────────────────── */
+body:not(.item-view) .Blog .blog-posts .post-outer-container {
+  background: #111 !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+  overflow: hidden;
+  transition: border-color 0.2s, transform 0.2s;
+}
+body:not(.item-view) .Blog .blog-posts .post-outer-container:hover {
+  border-color: rgba(236,172,13,0.25) !important;
+  transform: translateY(-2px);
+}
+body:not(.item-view) .Blog .blog-posts .post-outer-container .post-outer {
+  padding: 0 !important;
+}
+
+/* Post image — full-width at top of card */
+body:not(.item-view) .Blog .blog-posts .post-outer-container .post-body img:first-child,
+body:not(.item-view) .Blog .blog-posts .post-outer-container .post-body > div:first-child img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 220px !important;
+  object-fit: cover !important;
+  border-radius: 12px 12px 0 0 !important;
+  display: block !important;
+  margin: 0 !important;
+}
+
+/* Hide the comment/no-comment link that Blogger injects and sits over the image */
+body:not(.item-view) .Blog .blog-posts .comment-link,
+body:not(.item-view) .Blog .blog-posts .num-comments,
+body:not(.item-view) .Blog .blog-posts a[onclick*="comment"],
+body:not(.item-view) .Blog .blog-posts .post-body > a:first-child[href*="comment"] {
+  display: none !important;
+}
+
+/* Content padding inside cards */
+body:not(.item-view) .Blog .blog-posts .post-outer-container .post-body,
+body:not(.item-view) .Blog .blog-posts .post-outer-container .post-title,
+body:not(.item-view) .Blog .blog-posts .post-outer-container .post-footer,
+body:not(.item-view) .Blog .blog-posts .post-outer-container .post-header {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+body:not(.item-view) .Blog .blog-posts .post-outer-container .post-title {
+  padding-top: 16px !important;
+  padding-bottom: 4px !important;
+  max-width: 100% !important;
+  float: none !important;
+}
+body:not(.item-view) .Blog .blog-posts .post-outer-container .post-footer {
+  padding-bottom: 14px !important;
+}
+
+/* Post title */
+.post-title a {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  color: #fff !important;
+  transition: color 0.15s;
+}
+.post-title a:hover { color: #ecac0d !important; }
+
+/* Snippet text */
+body:not(.item-view) .Blog .blog-posts .post-body {
+  font-size: 0.875rem !important;
+  line-height: 1.6 !important;
+  color: rgba(255,255,255,0.5) !important;
+}
+
+/* Post footer */
+.post-footer {
+  font-size: 0.75rem !important;
+  color: rgba(255,255,255,0.3) !important;
+}
+body:not(.item-view) .Blog .blog-posts .post-outer-container .post-footer {
+  border-top: 1px solid rgba(255,255,255,0.05) !important;
+  padding-top: 10px !important;
+}
+.post-footer a { color: rgba(255,255,255,0.35) !important; }
+.post-footer a:hover { color: #ecac0d !important; }
+.post-footer .byline.author { display: none !important; }
+
+/* Label pills */
+.post-labels a {
+  background: rgba(236,172,13,0.1) !important;
+  border: 1px solid rgba(236,172,13,0.25) !important;
+  border-radius: 20px !important;
+  color: #ecac0d !important;
+  font-size: 0.68rem !important;
+  letter-spacing: 0.05em !important;
+  padding: 2px 8px !important;
+  margin-right: 4px !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+
+/* Read more */
+.jump-link a {
+  color: #ecac0d !important;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* ─── Single post view ───────────────────────────────────────────────────────── */
+.item-view .Blog .post-outer-container {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+.item-view .Blog .post-title {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.9rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  margin-bottom: 16px !important;
+  max-width: 100% !important;
+  float: none !important;
+}
+.item-view .Blog .post-body {
+  font-size: 1rem !important;
+  line-height: 1.8 !important;
+  color: rgba(255,255,255,0.8) !important;
+}
+.item-view .Blog .post-body h3 {
+  color: #fff !important;
+  font-size: 1.05rem !important;
+  margin-top: 1.5em;
+}
+.item-view .Blog .post-body p a {
+  color: #ecac0d !important;
+  text-decoration: underline;
+  text-decoration-color: rgba(236,172,13,0.3);
+}
+
+/* ─── Static pages ───────────────────────────────────────────────────────────── */
+.item-view .Page .post-body,
+.item-view .widget:not(.Blog) .post-body {
+  max-width: 100% !important;
+  color: inherit !important;
+}
+
+/* ─── Sticky header ──────────────────────────────────────────────────────────── */
+.sticky {
+  background: rgba(10,10,10,0.95) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.06) !important;
+}
+
+/* ─── Sidebar ────────────────────────────────────────────────────────────────── */
+.sidebar-container {
+  background-color: #0a0a0a !important;
+  border-right: 1px solid rgba(255,255,255,0.06);
+}
+.sidebar-container .widget + .widget {
+  border-top: 1px solid rgba(255,255,255,0.06) !important;
+}
+.sidebar-container .widget .title {
+  font-size: 0.68rem !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: rgba(255,255,255,0.3) !important;
+  margin-bottom: 8px !important;
+}
+.sidebar-container .widget li {
+  font-size: 0.88rem !important;
+  color: rgba(255,255,255,0.55);
+  padding: 4px 0;
+}
+
+/* ─── Pager ──────────────────────────────────────────────────────────────────── */
+.blog-pager { margin: 32px 0; padding: 0 !important; }
+.blog-pager a {
+  background: rgba(255,255,255,0.04) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 8px !important;
+  color: rgba(255,255,255,0.6) !important;
+  font-size: 0.82rem !important;
+  padding: 8px 16px !important;
+  transition: all 0.2s;
+}
+.blog-pager a:hover {
+  border-color: rgba(236,172,13,0.4) !important;
+  color: #ecac0d !important;
+}
+
+/* ─── Footer ─────────────────────────────────────────────────────────────────── */
+.Attribution {
+  font-size: 0.75rem !important;
+  color: rgba(255,255,255,0.2) !important;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding-top: 16px;
+}

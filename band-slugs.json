@@ -1,0 +1,10 @@
+{
+  "_comment": "Maps _bands file slug → vk.gy artist slug. Add entries here whenever a lookup fails due to naming differences. The update scripts will auto-save newly resolved slugs here too.",
+  "psycho-le-c-mu": "psycho-le-cemu",
+  "la-sadie-s":     "la-sadies",
+  "k-zi":           "kozi",
+  "emmur-e":        "emmuree",
+  "d-erlanger":     "derlanger",
+  "d-espairsray":   "despairsray",
+  "l-arc-en-ciel":  "larc-en-ciel"
+}

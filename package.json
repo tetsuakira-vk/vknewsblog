@@ -1,0 +1,18 @@
+{
+  "name": "vknewsblog",
+  "version": "1.0.0",
+  "description": "Visual Kei news pipeline - RSS to Blogger via Gemini enrichment",
+  "type": "module",
+  "scripts": {
+    "auth": "node auth.js",
+    "auth-youtube": "node auth-youtube.js",
+    "start": "node pipeline.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.37.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "googleapis": "^140.0.0",
+    "rss-parser": "^3.13.0"
+  }
+}

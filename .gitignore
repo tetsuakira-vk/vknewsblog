@@ -1,0 +1,17 @@
+.env
+node_modules/
+*.log
+
+# Local-machine migration artifacts — not part of the pipeline itself
+crontab-backup.txt
+Brewfile
+Brewfile.lock.json
+brew-leaves.txt
+brew-casks.txt
+
+# Editor/OS junk and one-off scratch files
+.DS_Store
+.claude/
+test.html
+feed.atom
+*.xlsx

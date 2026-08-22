@@ -1,0 +1,860 @@
+{
+  "491145": {
+    "published": true,
+    "filename": "2015-09-21-alice-nine-setlist-az.md",
+    "date": "2026-05-10T13:48:35.902Z"
+  },
+  "491146": {
+    "published": true,
+    "filename": "2015-09-23-alice-nine-setlist-fanj.md",
+    "date": "2026-05-10T13:48:30.970Z"
+  },
+  "491147": {
+    "published": true,
+    "filename": "2015-09-25-alice-nine-setlist-the-bottom-line.md",
+    "date": "2026-05-10T13:48:23.511Z"
+  },
+  "567564": {
+    "published": true,
+    "filename": "2016-07-10-setlist-zepp-divercity.md",
+    "date": "2026-05-10T13:52:56.430Z"
+  },
+  "611200": {
+    "published": true,
+    "filename": "2016-04-28-setlist-loft.md",
+    "date": "2026-05-10T13:53:14.757Z"
+  },
+  "615796": {
+    "published": true,
+    "filename": "2016-05-01-setlist-reny.md",
+    "date": "2026-05-10T13:53:01.296Z"
+  },
+  "842377": {
+    "published": true,
+    "filename": "2017-11-05-vamps-setlist.md",
+    "date": "2026-05-10T14:13:11.960Z"
+  },
+  "852964": {
+    "published": true,
+    "filename": "2017-10-27-vamps-setlist-911.md",
+    "date": "2026-05-10T14:13:27.523Z"
+  },
+  "852968": {
+    "published": true,
+    "filename": "2017-10-28-vamps-setlist-911.md",
+    "date": "2026-05-10T14:13:23.336Z"
+  },
+  "852971": {
+    "published": true,
+    "filename": "2017-10-29-vamps-setlist-911.md",
+    "date": "2026-05-10T14:13:18.502Z"
+  },
+  "993332": {
+    "published": true,
+    "filename": "2018-09-15-x-japan-setlist-911.md",
+    "date": "2026-05-10T14:15:54.001Z"
+  },
+  "1011085": {
+    "published": true,
+    "filename": "2018-09-28-x-japan-setlist-13.md",
+    "date": "2026-05-10T14:15:46.080Z"
+  },
+  "1011086": {
+    "published": true,
+    "filename": "2018-09-29-x-japan-setlist-13.md",
+    "date": "2026-05-10T14:15:38.232Z"
+  },
+  "1011087": {
+    "published": true,
+    "filename": "2018-09-30-x-japan-setlist-13.md",
+    "date": "2026-05-10T14:15:33.310Z"
+  },
+  "1484166": {
+    "published": true,
+    "filename": "2022-12-27-setlist.md",
+    "date": "2026-05-10T13:52:26.917Z"
+  },
+  "1569797": {
+    "published": true,
+    "filename": "2023-10-19-buck-tick-setlist-kt-zepp-yokohama.md",
+    "date": "2026-05-10T13:49:59.205Z"
+  },
+  "1576308": {
+    "published": true,
+    "filename": "2023-09-17-buck-tick-setlist.md",
+    "date": "2026-05-10T13:50:33.551Z"
+  },
+  "1576309": {
+    "published": true,
+    "filename": "2023-09-18-buck-tick-setlist.md",
+    "date": "2026-05-10T13:50:28.453Z"
+  },
+  "1585680": {
+    "published": true,
+    "filename": "2023-12-18-setlist-zepp-haneda.md",
+    "date": "2026-05-10T13:53:26.723Z"
+  },
+  "1612064": {
+    "published": true,
+    "filename": "2023-12-29-buck-tick-setlist.md",
+    "date": "2026-05-10T13:49:32.501Z"
+  },
+  "1772895": {
+    "published": true,
+    "filename": "2025-11-08-luna-sea-setlist-911.md",
+    "date": "2026-05-10T13:54:33.477Z"
+  },
+  "1772896": {
+    "published": true,
+    "filename": "2025-11-09-luna-sea-setlist-911.md",
+    "date": "2026-05-10T13:54:11.269Z"
+  },
+  "1779171": {
+    "published": true,
+    "filename": "2025-06-17-the-gazette-setlist-kt-zepp-yokohama.md",
+    "date": "2026-05-10T14:11:15.354Z"
+  },
+  "1779172": {
+    "published": true,
+    "filename": "2025-07-16-the-gazette-setlist-pit.md",
+    "date": "2026-05-10T14:11:10.269Z"
+  },
+  "1779173": {
+    "published": true,
+    "filename": "2025-08-25-the-gazette-setlist-zepp-haneda.md",
+    "date": "2026-05-10T14:11:04.904Z"
+  },
+  "1779174": {
+    "published": true,
+    "filename": "2025-09-30-the-gazette-setlist-club-citta.md",
+    "date": "2026-05-10T14:11:00.506Z"
+  },
+  "1793634": {
+    "published": true,
+    "filename": "2025-11-03-setlist-zepp-sapporo.md",
+    "date": "2026-05-10T14:07:32.332Z"
+  },
+  "1793635": {
+    "published": true,
+    "filename": "2025-11-09-setlist-zepp-haneda.md",
+    "date": "2026-05-10T14:07:20.541Z"
+  },
+  "1812261": {
+    "published": true,
+    "filename": "2025-11-24-luna-sea-setlist-911.md",
+    "date": "2026-05-10T13:54:06.465Z"
+  },
+  "1813086": {
+    "published": true,
+    "filename": "2025-11-08-setlist-911.md",
+    "date": "2026-05-10T14:07:25.858Z"
+  },
+  "1820303": {
+    "published": true,
+    "filename": "2026-03-20-dezert-setlist.md",
+    "date": "2026-05-10T13:51:09.742Z"
+  },
+  "1843206": {
+    "published": true,
+    "filename": "2026-05-04-setlist-pit.md",
+    "date": "2026-05-10T13:55:41.452Z"
+  },
+  "1850645": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "福山雅治"
+  },
+  "1851365": {
+    "published": true,
+    "filename": "2025-12-06-lynch-setlist-diamond-hall.md",
+    "date": "2026-05-10T13:55:28.967Z"
+  },
+  "1853445": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "高嶺のなでしこ"
+  },
+  "1857396": {
+    "published": true,
+    "filename": "2025-12-28-lynch-setlist.md",
+    "date": "2026-05-10T13:55:22.893Z"
+  },
+  "1858420": {
+    "published": true,
+    "filename": "2026-03-17-setlist-varit.md",
+    "date": "2026-05-10T13:56:17.685Z"
+  },
+  "1858421": {
+    "published": true,
+    "filename": "2026-03-18-setlist-never-land.md",
+    "date": "2026-05-10T13:55:53.506Z"
+  },
+  "1858422": {
+    "published": true,
+    "filename": "2026-03-20-setlist-bigcat.md",
+    "date": "2026-05-10T13:55:48.777Z"
+  },
+  "1864740": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "FRUITS ZIPPER"
+  },
+  "1865010": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "渡辺シュンスケ"
+  },
+  "1878214": {
+    "published": true,
+    "filename": "2026-06-07-sid-setlist-club-change-wave.md",
+    "date": "2026-06-14T05:01:54.343Z"
+  },
+  "1878218": {
+    "published": true,
+    "filename": "2026-06-21-sid-setlist-heavens-rock-vj-3.md",
+    "date": "2026-06-28T05:02:04.595Z"
+  },
+  "1878230": {
+    "published": true,
+    "filename": "2026-08-08-sid-setlist-diamond-hall.md",
+    "date": "2026-08-09T05:01:53.434Z"
+  },
+  "1879140": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "BRADIO"
+  },
+  "1881930": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "渡辺貞夫"
+  },
+  "1882140": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "yama"
+  },
+  "1883720": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "浜田省吾"
+  },
+  "1887559": {
+    "published": true,
+    "filename": "2026-05-05-dir-en-grey-setlist.md",
+    "date": "2026-05-10T13:51:34.968Z"
+  },
+  "1887565": {
+    "published": true,
+    "filename": "2026-07-18-dir-en-grey-setlist.md",
+    "date": "2026-07-19T05:00:42.134Z"
+  },
+  "1887566": {
+    "published": true,
+    "filename": "2026-07-19-dir-en-grey-setlist.md",
+    "date": "2026-07-26T05:00:29.533Z"
+  },
+  "1889120": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "[Alexandros]"
+  },
+  "1890150": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "フレンズ"
+  },
+  "1890600": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Omoinotake"
+  },
+  "1892420": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "アイスクリームネバーグラウンド"
+  },
+  "1892972": {
+    "published": true,
+    "filename": "2026-06-07-matenrou-opera-setlist-liquidroom.md",
+    "date": "2026-06-14T05:01:09.053Z"
+  },
+  "1892973": {
+    "published": true,
+    "filename": "2026-06-21-matenrou-opera-setlist-evans-castle-hall.md",
+    "date": "2026-06-28T05:01:22.749Z"
+  },
+  "1892974": {
+    "published": true,
+    "filename": "2026-06-27-matenrou-opera-setlist-sunash.md",
+    "date": "2026-06-28T05:01:16.337Z"
+  },
+  "1892976": {
+    "published": true,
+    "filename": "2026-07-05-matenrou-opera-setlist-heavens-rock-vj-2.md",
+    "date": "2026-07-12T05:01:15.167Z"
+  },
+  "1892977": {
+    "published": true,
+    "filename": "2026-07-11-matenrou-opera-setlist-cube-garden.md",
+    "date": "2026-07-12T05:01:10.912Z"
+  },
+  "1892978": {
+    "published": true,
+    "filename": "2026-07-12-matenrou-opera-setlist-cube-garden.md",
+    "date": "2026-07-19T05:01:16.552Z"
+  },
+  "1892980": {
+    "published": true,
+    "filename": "2026-07-19-matenrou-opera-setlist-b9-v2.md",
+    "date": "2026-07-26T05:01:12.134Z"
+  },
+  "1892981": {
+    "published": true,
+    "filename": "2026-07-25-matenrou-opera-setlist-az.md",
+    "date": "2026-07-26T05:01:07.872Z"
+  },
+  "1892982": {
+    "published": true,
+    "filename": "2026-07-26-matenrou-opera-setlist-soulpower.md",
+    "date": "2026-08-02T05:01:02.029Z"
+  },
+  "1892984": {
+    "published": true,
+    "filename": "2026-08-02-matenrou-opera-setlist-image.md",
+    "date": "2026-08-09T05:00:54.406Z"
+  },
+  "1893914": {
+    "published": true,
+    "filename": "2026-06-16-buck-tick-setlist-sgc-hall-ariake.md",
+    "date": "2026-06-21T05:00:17.219Z"
+  },
+  "1896995": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "LACCO TOWER"
+  },
+  "1900511": {
+    "published": true,
+    "filename": "2026-06-20-diaura-setlist-electric-lady-land.md",
+    "date": "2026-06-21T05:00:35.453Z"
+  },
+  "1900512": {
+    "published": true,
+    "filename": "2026-06-21-diaura-setlist-electric-lady-land.md",
+    "date": "2026-06-28T05:00:27.125Z"
+  },
+  "1900525": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "OddRe:"
+  },
+  "1900540": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "SHADOWS"
+  },
+  "1900545": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Good Grief"
+  },
+  "1900550": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "04 Limited Sazabys"
+  },
+  "1900945": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Fear, and Loathing in Las Vegas"
+  },
+  "1901020": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "ストレイテナー"
+  },
+  "1901530": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "SHY"
+  },
+  "1901555": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "urei"
+  },
+  "1902202": {
+    "published": true,
+    "filename": "2026-05-09-setlist-gorilla-hall-osaka.md",
+    "date": "2026-05-10T13:57:23.133Z"
+  },
+  "1902332": {
+    "published": true,
+    "filename": "2026-03-12-luna-sea-setlist.md",
+    "date": "2026-05-10T13:53:38.587Z"
+  },
+  "1903045": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "銀杏BOYZ"
+  },
+  "1903050": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "ピーナッツくん"
+  },
+  "1904320": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Launcher No.8"
+  },
+  "1907215": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "打首獄門同好会"
+  },
+  "1907220": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "ももいろクローバーZ"
+  },
+  "1908140": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "羊文学"
+  },
+  "1908485": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "171"
+  },
+  "1909161": {
+    "published": true,
+    "filename": "2025-03-11-rides-in-revellion-setlist-bigcat.md",
+    "date": "2026-05-10T13:59:58.250Z"
+  },
+  "1909185": {
+    "published": true,
+    "filename": "2026-04-20-nogod-setlist-club-3star-imaike.md",
+    "date": "2026-05-10T13:57:37.321Z"
+  },
+  "1909186": {
+    "skipped": true,
+    "reason": "file_exists"
+  },
+  "1909187": {
+    "published": true,
+    "filename": "2026-05-10-nogod-setlist-music-lab.md",
+    "date": "2026-05-17T05:01:12.991Z"
+  },
+  "1910229": {
+    "published": true,
+    "filename": "2026-06-28-matenrou-opera-setlist-club-citta.md",
+    "date": "2026-07-05T05:01:19.114Z"
+  },
+  "1910970": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Bridear"
+  },
+  "1912425": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "iLiFE!"
+  },
+  "1912430": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "東京スカパラダイスオーケストラ"
+  },
+  "1912435": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "時速36km"
+  },
+  "1912530": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "手越祐也"
+  },
+  "1913750": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "ENTH"
+  },
+  "1913860": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Knosis"
+  },
+  "1914070": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "The Ravens"
+  },
+  "1914445": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "ARCANA PROJECT"
+  },
+  "1915550": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "go!go!vanillas"
+  },
+  "1916355": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "FUJIBASE"
+  },
+  "1916544": {
+    "published": true,
+    "filename": "2026-05-23-matenrou-opera-setlist-masked-2026-spotify-o-east-.md",
+    "date": "2026-05-24T05:00:55.353Z"
+  },
+  "1916765": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "秋山黄色"
+  },
+  "1916770": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Sundae May Club"
+  },
+  "1916780": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "やついいちろう"
+  },
+  "1916790": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "花冷え。"
+  },
+  "1916980": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "かずき山盛り"
+  },
+  "1917325": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "銀幕一楼とTIMECAFE"
+  },
+  "1917340": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "toe"
+  },
+  "1918320": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "the satellites"
+  },
+  "1918550": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "THE UNCROWNED"
+  },
+  "1918990": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "超ときめき♡宣伝部"
+  },
+  "1919735": {
+    "published": true,
+    "filename": "2026-07-26-nogod-setlist-reny-alpha.md",
+    "date": "2026-08-02T05:01:25.552Z"
+  },
+  "1919748": {
+    "published": true,
+    "filename": "2026-07-25-nogod-setlist-reny-alpha.md",
+    "date": "2026-07-26T05:01:37.229Z"
+  },
+  "1919919": {
+    "published": true,
+    "filename": "2026-04-16-mucc-setlist-zepp-shinjuku.md",
+    "date": "2026-05-10T13:57:11.098Z"
+  },
+  "1921200": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Survive Said The Prophet"
+  },
+  "1921540": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "fishbowl"
+  },
+  "1921936": {
+    "published": true,
+    "filename": "2026-05-29-luna-sea-setlist.md",
+    "date": "2026-05-31T05:00:48.456Z"
+  },
+  "1921937": {
+    "published": true,
+    "filename": "2026-05-30-luna-sea-setlist.md",
+    "date": "2026-05-31T05:00:44.234Z"
+  },
+  "1921939": {
+    "published": true,
+    "filename": "2026-06-05-luna-sea-setlist.md",
+    "date": "2026-06-07T05:00:49.048Z"
+  },
+  "1921940": {
+    "published": true,
+    "filename": "2026-06-06-luna-sea-setlist.md",
+    "date": "2026-06-07T05:00:44.520Z"
+  },
+  "1921941": {
+    "published": true,
+    "filename": "2026-06-12-luna-sea-setlist.md",
+    "date": "2026-06-14T05:00:48.976Z"
+  },
+  "1921943": {
+    "published": true,
+    "filename": "2026-06-13-luna-sea-setlist.md",
+    "date": "2026-06-14T05:00:44.458Z"
+  },
+  "1921944": {
+    "published": true,
+    "filename": "2026-06-19-luna-sea-setlist.md",
+    "date": "2026-06-21T05:01:01.529Z"
+  },
+  "1921946": {
+    "published": true,
+    "filename": "2026-06-21-luna-sea-setlist.md",
+    "date": "2026-06-28T05:01:02.294Z"
+  },
+  "1921947": {
+    "published": true,
+    "filename": "2026-06-25-luna-sea-setlist.md",
+    "date": "2026-06-28T05:00:58.260Z"
+  },
+  "1921948": {
+    "published": true,
+    "filename": "2026-06-26-luna-sea-setlist.md",
+    "date": "2026-06-28T05:00:53.389Z"
+  },
+  "1921949": {
+    "published": true,
+    "filename": "2026-07-04-luna-sea-setlist.md",
+    "date": "2026-07-05T05:01:05.260Z"
+  },
+  "1921950": {
+    "published": true,
+    "filename": "2026-07-05-luna-sea-setlist.md",
+    "date": "2026-07-12T05:00:57.264Z"
+  },
+  "1921951": {
+    "published": true,
+    "filename": "2026-07-11-luna-sea-setlist.md",
+    "date": "2026-07-12T05:00:53.059Z"
+  },
+  "1921952": {
+    "published": true,
+    "filename": "2026-07-12-luna-sea-setlist.md",
+    "date": "2026-07-19T05:01:02.939Z"
+  },
+  "1921953": {
+    "published": true,
+    "filename": "2026-07-20-luna-sea-setlist-hitaru.md",
+    "date": "2026-07-26T05:00:54.194Z"
+  },
+  "1921954": {
+    "published": true,
+    "filename": "2026-07-25-luna-sea-setlist-21.md",
+    "date": "2026-07-26T05:00:50.117Z"
+  },
+  "1921955": {
+    "published": true,
+    "filename": "2026-07-26-luna-sea-setlist-21.md",
+    "date": "2026-08-02T05:00:48.918Z"
+  },
+  "1921956": {
+    "published": true,
+    "filename": "2026-07-30-luna-sea-setlist.md",
+    "date": "2026-08-02T05:00:44.009Z"
+  },
+  "1924781": {
+    "published": true,
+    "filename": "2026-08-11-matenrou-opera-setlist-rensa.md",
+    "date": "2026-08-16T05:01:02.738Z"
+  },
+  "1924782": {
+    "published": true,
+    "filename": "2026-08-15-matenrou-opera-setlist-hatch.md",
+    "date": "2026-08-16T05:00:58.264Z"
+  },
+  "1925401": {
+    "published": true,
+    "filename": "2026-02-16-sukekiyo-setlist-hatch.md",
+    "date": "2026-05-10T14:10:11.743Z"
+  },
+  "1925403": {
+    "published": true,
+    "filename": "2026-02-17-sukekiyo-setlist-hatch.md",
+    "date": "2026-05-10T14:10:06.817Z"
+  },
+  "1925404": {
+    "published": true,
+    "filename": "2026-02-24-sukekiyo-setlist.md",
+    "date": "2026-05-10T14:10:01.684Z"
+  },
+  "1925405": {
+    "published": true,
+    "filename": "2026-02-25-sukekiyo-setlist.md",
+    "date": "2026-05-10T14:09:56.887Z"
+  },
+  "1925454": {
+    "published": true,
+    "filename": "2026-08-11-nogod-setlist-crush-of-mode-hyper-hot-summer26-2st.md",
+    "date": "2026-08-16T05:01:33.035Z"
+  },
+  "1925575": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "なきごと"
+  },
+  "1926650": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Jason Andrew"
+  },
+  "1932180": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "GOOD BYE APRIL"
+  },
+  "1933180": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Sunny Girl"
+  },
+  "1933985": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "やましたりな"
+  },
+  "1934830": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "阿部静華"
+  },
+  "1936250": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "椛島恵美"
+  },
+  "1936761": {
+    "published": true,
+    "filename": "2026-08-08-mucc-setlist.md",
+    "date": "2026-08-09T05:01:13.853Z"
+  },
+  "1939960": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "西恵利香"
+  },
+  "1940110": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "TOTALFAT"
+  },
+  "1941120": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "今津直幸"
+  },
+  "1943445": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "COKEHEAD HIPSTERS"
+  },
+  "1943450": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Varrentia"
+  },
+  "1943905": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "ウタヒメドリームオールスターズ"
+  },
+  "1944380": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "a flood of circle"
+  },
+  "1944880": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Lazurus"
+  },
+  "1944910": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "asobi (Isami Shoji 荒幡勇樹 後藤スパイシー)"
+  },
+  "1945135": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "東京ノビーズ"
+  },
+  "1945750": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "DJ ADAM at with SYU"
+  },
+  "1946490": {
+    "skipped": true,
+    "reason": "not_vk",
+    "band": "Appare!"
+  },
+  "1949517": {
+    "published": true,
+    "filename": "2026-07-12-buck-tick-setlist-hatch.md",
+    "date": "2026-07-19T05:00:21.145Z"
+  },
+  "1951039": {
+    "published": true,
+    "filename": "2026-06-28-buck-tick-setlist-pit.md",
+    "date": "2026-07-05T05:00:15.901Z"
+  },
+  "1951057": {
+    "published": true,
+    "filename": "2026-07-05-buck-tick-setlist-rensa.md",
+    "date": "2026-07-12T05:00:16.978Z"
+  },
+  "1956544": {
+    "published": true,
+    "filename": "2026-08-05-nogod-setlist-music-lab.md",
+    "date": "2026-08-09T05:01:28.017Z"
+  },
+  "1956546": {
+    "published": true,
+    "filename": "2026-08-14-nogod-setlist-music-lab.md",
+    "date": "2026-08-16T05:01:28.737Z"
+  },
+  "1960998": {
+    "published": true,
+    "filename": "2026-06-12-lynch-setlist-club-citta.md",
+    "date": "2026-06-14T05:00:59.226Z"
+  },
+  "1971780": {
+    "published": true,
+    "filename": "2026-08-09-setlist-nhk.md",
+    "date": "2026-08-16T05:00:43.150Z"
+  },
+  "1972320": {
+    "skipped": true,
+    "reason": "file_exists"
+  },
+  "1972321": {
+    "published": true,
+    "filename": "2026-07-04-gackt-setlist.md",
+    "date": "2026-07-05T05:00:41.674Z"
+  }
+}
