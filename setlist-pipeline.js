@@ -21,7 +21,7 @@ import { pushWithRebase } from './lib/jekyll.js';
 const SITE_REPO    = '/Users/robertnelson/vkchronicle';
 const POSTS_DIR    = `${SITE_REPO}/_posts`;
 const BANDS_DIR    = `${SITE_REPO}/_bands`;
-const TRACKING     = '/Users/robertnelson/vknewsblog/posted-setlists.json';
+const TRACKING     = 'posted-setlists.json';
 const RSS_BASE     = 'https://dailysetlist.net/feed/';
 const COMMIT_EVERY = 5;
 

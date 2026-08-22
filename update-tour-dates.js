@@ -15,7 +15,7 @@ import { updateJekyllPage } from './lib/jekyll.js';
 const JAME_BASE      = 'https://www.jame-world.com';
 const JAME_EVENTS    = `${JAME_BASE}/en/event`;
 const LIVEFANS_BASE  = 'https://www.livefans.jp';
-const LIVEFANS_IDS   = '/Users/robertnelson/vknewsblog/livefans-ids.json';
+const LIVEFANS_IDS   = 'livefans-ids.json';
 const WEEKS_FORWARD  = 20;
 
 // ─── Scraper ──────────────────────────────────────────────────────────────────

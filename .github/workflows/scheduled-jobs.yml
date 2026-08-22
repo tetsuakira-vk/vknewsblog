@@ -44,6 +44,14 @@ on:
 permissions:
   contents: write
 
+# All jobs push to shared state (this repo's *.json files, and vkchronicle).
+# Without this, two runs that ever overlap (manual dispatch + a scheduled
+# fire, or two schedules landing close together) race each other's git
+# pushes — queue them instead of cancelling or letting them run in parallel.
+concurrency:
+  group: scheduled-jobs
+  cancel-in-progress: false
+
 env:
   SITE_REPO_PATH: ${{ github.workspace }}/vkchronicle
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

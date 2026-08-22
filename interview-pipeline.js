@@ -28,7 +28,7 @@ import { pushWithRebase } from './lib/jekyll.js';
 const SITE_REPO    = process.env.SITE_REPO_PATH || '/Users/robertnelson/vkchronicle';
 const POSTS_DIR    = `${SITE_REPO}/_posts`;
 const BANDS_DIR    = `${SITE_REPO}/_bands`;
-const TRACKING     = '/Users/robertnelson/vknewsblog/posted-interviews.json';
+const TRACKING     = 'posted-interviews.json';
 const COMMIT_EVERY = 5;
 const MIN_BODY_LEN = 600;   // chars — skip blurbs/short news items
 const MAX_BODY_LEN = 12000; // chars — truncate very long pieces for translation

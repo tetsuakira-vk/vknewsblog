@@ -101,7 +101,7 @@ function extractPages(atomPath) {
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 function main() {
-  const atomPath   = path.join('/Users/robertnelson/vknewsblog', 'feed.atom');
+  const atomPath   = path.join(process.cwd(), 'feed.atom');
   const pageData   = extractPages(atomPath);
   const filePaths  = [];
 

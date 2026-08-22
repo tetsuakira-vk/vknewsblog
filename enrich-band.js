@@ -22,7 +22,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import * as cheerio from 'cheerio';
 
 const BANDS_DIR     = '/Users/robertnelson/vkchronicle/_bands';
-const SLUG_MAP_FILE = '/Users/robertnelson/vknewsblog/band-slugs.json';
+const SLUG_MAP_FILE = 'band-slugs.json';
 const DELAY_MS      = 2000; // polite delay between bands when running --all
 
 const HEADERS_BROWSER = {
