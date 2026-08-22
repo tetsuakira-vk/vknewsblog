@@ -1,0 +1,170 @@
+name: Scheduled jobs
+
+# All times below are UTC. The crontab this replaced ran on Europe/London
+# (BST, UTC+1 in summer) — these were converted from the BST times, so they
+# drift by an hour for half the year across the DST change. Not worth
+# fixing precisely for content-publishing jobs; adjust manually if it ever
+# matters.
+on:
+  schedule:
+    - cron: '0 * * * *'    # pipeline.js — hourly
+    - cron: '1 23 * * *'   # fetch-popular.js — daily
+    - cron: '0 7 * * 1'    # update-upcoming-widget.js — weekly Mon
+    - cron: '0 8 * * 1'    # weekly-digest.js — weekly Mon
+    - cron: '0 8 * * 3'    # interview-pipeline.js — weekly Wed
+    - cron: '0 5 * * 0'    # livefans-pipeline.js — weekly Sun
+    - cron: '0 8 * * 0'    # fetch-weekly-embeds.js — weekly Sun
+    - cron: '30 8 * * 0'   # update-releases-page.js — weekly Sun
+    - cron: '30 9 * * 0'   # update-tour-dates.js — weekly Sun
+    - cron: '0 10 * * 0'   # auto-review.js — weekly Sun
+    - cron: '0 8 1 * *'    # monthly-recap.js — monthly
+    - cron: '0 9 1 * *'    # monthly-video-roundup.js — monthly
+    - cron: '0 11 1 * *'   # auto-review-classic.js — monthly
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Job to run manually'
+        required: true
+        type: choice
+        options:
+          - pipeline
+          - fetch-popular
+          - update-upcoming-widget
+          - weekly-digest
+          - interview-pipeline
+          - livefans-pipeline
+          - fetch-weekly-embeds
+          - update-releases-page
+          - update-tour-dates
+          - auto-review
+          - monthly-recap
+          - monthly-video-roundup
+          - auto-review-classic
+
+permissions:
+  contents: write
+
+env:
+  SITE_REPO_PATH: ${{ github.workspace }}/vkchronicle
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout vknewsblog
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Clone vkchronicle (with push access)
+        env:
+          PUSH_TOKEN: ${{ secrets.VKCHRONICLE_PUSH_TOKEN }}
+        run: |
+          git clone "https://x-access-token:${PUSH_TOKEN}@github.com/tetsuakira-vk/vkchronicle.git" "${SITE_REPO_PATH}"
+
+      - name: pipeline.js
+        if: github.event.schedule == '0 * * * *' || github.event.inputs.job == 'pipeline'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: node pipeline.js
+
+      - name: fetch-popular.js
+        if: github.event.schedule == '1 23 * * *' || github.event.inputs.job == 'fetch-popular'
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: node fetch-popular.js
+
+      - name: update-upcoming-widget.js
+        if: github.event.schedule == '0 7 * * 1' || github.event.inputs.job == 'update-upcoming-widget'
+        run: node update-upcoming-widget.js
+
+      - name: weekly-digest.js
+        if: github.event.schedule == '0 8 * * 1' || github.event.inputs.job == 'weekly-digest'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node weekly-digest.js
+
+      - name: interview-pipeline.js
+        if: github.event.schedule == '0 8 * * 3' || github.event.inputs.job == 'interview-pipeline'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node interview-pipeline.js
+
+      - name: livefans-pipeline.js
+        if: github.event.schedule == '0 5 * * 0' || github.event.inputs.job == 'livefans-pipeline'
+        run: node livefans-pipeline.js --days 7 --pages 2
+
+      - name: fetch-weekly-embeds.js
+        if: github.event.schedule == '0 8 * * 0' || github.event.inputs.job == 'fetch-weekly-embeds'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node fetch-weekly-embeds.js
+
+      - name: update-releases-page.js
+        if: github.event.schedule == '30 8 * * 0' || github.event.inputs.job == 'update-releases-page'
+        run: node update-releases-page.js
+
+      - name: update-tour-dates.js
+        if: github.event.schedule == '30 9 * * 0' || github.event.inputs.job == 'update-tour-dates'
+        run: node update-tour-dates.js
+
+      - name: auto-review.js
+        if: github.event.schedule == '0 10 * * 0' || github.event.inputs.job == 'auto-review'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node auto-review.js
+
+      - name: monthly-recap.js
+        if: github.event.schedule == '0 8 1 * *' || github.event.inputs.job == 'monthly-recap'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node monthly-recap.js
+
+      - name: monthly-video-roundup.js
+        if: github.event.schedule == '0 9 1 * *' || github.event.inputs.job == 'monthly-video-roundup'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node monthly-video-roundup.js
+
+      - name: auto-review-classic.js
+        if: github.event.schedule == '0 11 1 * *' || github.event.inputs.job == 'auto-review-classic'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node auto-review-classic.js
+
+      # Every run above writes its dedup/state JSON files locally (posted.json,
+      # recent-titles.json, etc.). Actions runners are thrown away after each
+      # run, so unlike the old local-cron setup, that state only survives if we
+      # commit it back here — this step is what makes re-runs actually dedupe
+      # correctly instead of re-discovering the same stories every time.
+      - name: Commit updated pipeline state
+        if: always()
+        run: |
+          git add -- '*.json'
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+          git commit -m "Update pipeline state [skip ci]"
+          git push origin main || (git pull --rebase origin main && git push origin main)
