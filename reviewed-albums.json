@@ -268,5 +268,16 @@
     "rating": 8,
     "type": "weekly",
     "postedAt": "2026-08-30T14:43:11.506Z"
+  },
+  {
+    "key": "classic::buck-tick|seventh heaven",
+    "artist": "BUCK-TICK",
+    "title": "BUCK-TICK – Seventh Heaven (1990): Classic Album Review",
+    "album": "Seventh Heaven",
+    "year": 1990,
+    "url": "https://vkchronicle.com/2026/09/buck-tick-seventh-heaven-1990-classic-album-review/",
+    "rating": 9,
+    "type": "classic",
+    "postedAt": "2026-09-01T15:16:53.740Z"
   }
 ]
