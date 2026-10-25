@@ -353,5 +353,14 @@
     "rating": 8,
     "type": "weekly",
     "postedAt": "2026-10-18T13:48:40.050Z"
+  },
+  {
+    "key": "acme|super hero",
+    "artist": "ACME",
+    "title": "ACME – SUPER HERO Review: A Bold Statement of Intent",
+    "url": "https://vkchronicle.com/2026/10/acme-super-hero-review-a-bold-statement-of-intent/",
+    "rating": 8,
+    "type": "weekly",
+    "postedAt": "2026-10-25T14:08:51.713Z"
   }
 ]
