@@ -371,5 +371,16 @@
     "rating": 8,
     "type": "weekly",
     "postedAt": "2026-11-01T16:37:14.234Z"
+  },
+  {
+    "key": "classic::l'arc~en~ciel|dune",
+    "artist": "L'Arc~en~Ciel",
+    "title": "L'Arc~en~Ciel – DUNE (1993): Classic Album Review",
+    "album": "DUNE",
+    "year": 1993,
+    "url": "https://vkchronicle.com/2026/11/l-arc-en-ciel-dune-1993-classic-album-review/",
+    "rating": 8,
+    "type": "classic",
+    "postedAt": "2026-11-01T16:56:41.477Z"
   }
 ]
